@@ -1,0 +1,20 @@
+baseURL = 'https://highcountryequity.com/'
+languageCode = 'en-us'
+title = 'High Country Equity'
+
+[params]
+  description = "Investment and business ventures"
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 2
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
