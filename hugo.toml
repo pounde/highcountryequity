@@ -53,10 +53,9 @@ paginate = 5
     Title = "High Country Equity"
     Content = "Investment and business ventures focused on sustainable growth and innovation."
 
-  [params.socialIcons]
-    [[params.socialIcons]]
-      name = "email"
-      url = "mailto:contact@highcountryequity.com"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:contact@highcountryequity.com"
 
 [menu]
   [[menu.main]]
