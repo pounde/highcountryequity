@@ -3,7 +3,8 @@ languageCode = 'en-us'
 title = 'High Country Equity'
 theme = 'PaperMod'
 
-paginate = 5
+[pagination]
+  pagerSize = 5
 
 [params]
   env = "production"
