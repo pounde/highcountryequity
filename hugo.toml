@@ -1,20 +1,84 @@
 baseURL = 'https://highcountryequity.com/'
 languageCode = 'en-us'
 title = 'High Country Equity'
+theme = 'PaperMod'
+
+paginate = 5
 
 [params]
+  env = "production"
+  title = "High Country Equity"
   description = "Investment and business ventures"
+  keywords = ["Investment", "Business", "Equity", "Ventures"]
+  author = "High Country Equity"
+  images = [""]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.assets]
+    disableHLJS = false
+    disableFingerprinting = false
+
+  [params.label]
+    text = "High Country Equity"
+    icon = ""
+    iconHeight = 35
+
+  [params.profileMode]
+    enabled = false
+    title = "High Country Equity"
+    subtitle = "Investment and business ventures"
+    imageUrl = ""
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = ""
+
+  [params.homeInfoParams]
+    Title = "High Country Equity"
+    Content = "Investment and business ventures focused on sustainable growth and innovation."
+
+  [params.socialIcons]
+    [[params.socialIcons]]
+      name = "email"
+      url = "mailto:contact@highcountryequity.com"
 
 [menu]
   [[menu.main]]
+    identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 1
+    weight = 10
   [[menu.main]]
+    identifier = "portfolio"
     name = "Portfolio"
     url = "/portfolio/"
-    weight = 2
+    weight = 20
   [[menu.main]]
+    identifier = "contact"
     name = "Contact"
     url = "/contact/"
-    weight = 3
+    weight = 30
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "github"
